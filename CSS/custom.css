@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+#main {
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: #e5d1f7;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#addBtn {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    background-color: #2d3436;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#addBtn:hover {
+    cursor: pointer;
+    background-color: #1B1464;
+}
+
+.note {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    margin: 15px;
+    margin-top: 43px;
+    border: none;
+    border-radius: 8px;
+}
+
+.tool {
+    width: 100%;
+    background-color: #1B1464;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    justify-content: end;
+}
+
+.tool:hover {
+    background-color: #3c40c6;
+    color: white;
+}
+
+.tool i {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.note textarea {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border: none;
+    resize: none;
+    background-color: #778beb;
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.note textarea:focus {
+    border: 0;
+    outline: 0;
+}
